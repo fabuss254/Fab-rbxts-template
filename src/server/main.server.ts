@@ -1,3 +1,7 @@
-import { makeHello } from "shared/module";
+import { ReplicatedStorage, Workspace } from "@rbxts/services";
+import Loader from "shared/Loader";
 
-print(makeHello("main.server.ts"));
+Workspace.Assets.Parent = ReplicatedStorage;
+Workspace.FindFirstChild("StudioOnly")?.Destroy();
+
+Loader();

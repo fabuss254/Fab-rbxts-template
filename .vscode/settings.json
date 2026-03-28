@@ -16,4 +16,28 @@
 	"editor.codeActionsOnSave": {
 		"source.organizeImports": "explicit"
 	},
+
+	"luau-lsp.require.mode": "relativeToFile",
+	"luau-lsp.require.directoryAliases": {
+		"@lune/": "~/.lune/.typedefs/0.8.4/"
+	},
+
+	// Exclude files from quick open
+	"search.exclude": {
+		"out/**/*": true,
+		"node_modules/**/*": true,
+		".git/**/*": true,
+		"include/**/*": true,
+		"include-overwritten/**/*": true
+	},
+
+	// Exclude files from auto import
+	"typescript.preferences.autoImportFileExcludePatterns": [
+		"**/plugin/**",
+		"**/CUI/Components/**",
+		"**/Settings/Components/**",
+		"**/Cmdr/Commands/**",
+		"**/types/**",
+		"**/ExtraTypes/**"
+	]
 }

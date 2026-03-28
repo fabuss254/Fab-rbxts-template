@@ -34,6 +34,9 @@
 			},
 			"TS": {
 				"$path": "out/shared"
+			},
+			"DevPlugin": {
+				"$path": "out/plugin"
 			}
 		},
 		"StarterPlayer": {

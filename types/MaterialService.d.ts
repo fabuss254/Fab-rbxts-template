@@ -1,0 +1,2 @@
+type MaterialService = MaterialService & {
+}

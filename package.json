@@ -22,5 +22,10 @@
     "prettier": "^3.5.3",
     "roblox-ts": "^3.0.0",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@rbxts/maid": "^1.1.0",
+    "@rbxts/remo": "^1.5.3",
+    "@rbxts/services": "^1.6.0"
   }
 }

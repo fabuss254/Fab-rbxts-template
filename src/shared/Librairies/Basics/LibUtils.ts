@@ -1,6 +1,5 @@
 /**
- * Force load a variable, as this template uses a lot of lazy loading.
- * You WILL need to use it for variables that are directly required from other module and used in a for loop or straight rawset (like 'Thing.Color = _FL(MyExternalColor)')
+ * Force load a variable, as French Piece's code uses a lot of lazy loading
  * @param Variable The variable to force load
  * @returns The variable after being force loaded
  */

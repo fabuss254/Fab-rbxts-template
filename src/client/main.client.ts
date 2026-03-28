@@ -1,3 +1,3 @@
-import { makeHello } from "shared/module";
+import Loader from "shared/Loader";
 
-print(makeHello("main.client.ts"));
+Loader();
